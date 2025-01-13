@@ -1,16 +1,15 @@
 # Projeto final POS 2024
-<b>Dupla: Wenderson da Silva e Izac do Nascimento</b>
 
 ---
 # Sumário
-- [Users](#users)
+- [Users](#Usuários)
 - [Todos](#todos)
-- [Photos](#photos)
-- [Albuns](#albuns)
-- [Colaboradores](#colaboradores)
+- [Photos](#Fotos)
+- [Albuns](#Albuns)
+- [Colaboradores](#Aluno)
 ---
 
-# <a name="users"></a> Users
+# <a name="Usuários"></a> Users
 ### JSON atributes
 ```json
 {
@@ -62,7 +61,7 @@
 - **Endpoint:** `/api/todos/<id>/`
 - **Method:** `DELETE`
 
-# <a name="photos"></a> Photos
+# <a name="Fotos"></a> Photos
 ### JSON atributes
 ```json
 {
@@ -88,7 +87,7 @@
 - **Endpoint:** `/api/photos/<id>/`
 - **Method:** `DELETE`
 
-# <a name="albuns"></a> Albuns
+# <a name="Albuns"></a> Albuns
 ### JSON atributes
 ```json
 {
@@ -120,7 +119,7 @@
 
 ---
 
-## <a name="colaboradores"></a> Colaboradores
+## <a name="Aluno"></a> Aluno
 
 <table>
   <tr>
