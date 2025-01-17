@@ -1,7 +1,7 @@
-import ListTodos from '../pages/todos/ListTodos.jsx';
-import CreateTodo from '../pages/todos/CreateTodo.jsx';
-import UpdateTodo from '../pages/todos/UpdateTodo.jsx';
-import DeleteTodo from '../pages/todos/DeleteTodo.jsx';
+import ListTodos from '../paginas/todos/ListTodos.js';
+import CriarTodo from '../paginas/todos/CriarTodo.js';
+import UpdateTodo from '../paginas/todos/UpdateTodo.js';
+import DeleteTodo from '../paginas/todos/DeleteTodo.js';
 
 const todosRoutes = [
     {
@@ -10,7 +10,7 @@ const todosRoutes = [
     },
     {
         path: 'tarefas/cadastrar/',
-        element: <CreateTodo />
+        element: <CriarTodo />
     },
     {
         path: 'tarefas/atualizar/:id/',

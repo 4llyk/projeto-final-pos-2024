@@ -1,0 +1,155 @@
+/* ListTodos.css */
+
+/* Página principal */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #F4F4F4, #FFFFFF);
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #131E69;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Botão cadastrar */
+.btn-primary {
+    margin: 1.5rem auto;
+    display: block;
+    width: fit-content;
+    background: linear-gradient(135deg, #3A3CB6, #131E69);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #2B4DA1, #0F173A);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Alertas */
+.alert {
+    margin: 1.5rem auto;
+    width: 90%;
+    text-align: center;
+    padding: 16px;
+    font-size: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.alert-warning {
+    background: linear-gradient(135deg, #fff3cd, #ffeeba);
+    color: #856404;
+    border: 1px solid #ffeeba;
+    font-weight: bold;
+}
+
+.alert-danger {
+    background: linear-gradient(135deg, #FF4C4C, #A41416);
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Tabela */
+.table {
+    margin: 1.5rem auto;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.table thead {
+    background: linear-gradient(135deg, #A9A9E3, #6C63FF);
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.table th, .table td {
+    text-align: center;
+    padding: 16px;
+    border: 1px solid #dee2e6;
+}
+
+.table img.Foto {
+    max-width: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Botões de ação */
+.table .btn-danger {
+    margin-right: 0.5rem;
+    background: linear-gradient(135deg, #A41416, #FF4C4C);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.table .btn-danger:hover {
+    background: linear-gradient(135deg, #8B1214, #E03B3D);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.table .btn-primary {
+    margin-left: 0.5rem;
+    background: linear-gradient(135deg, #3A3CB6, #131E69);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.table .btn-primary:hover {
+    background: linear-gradient(135deg, #2B4DA1, #0F173A);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Mensagens */
+p {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    color: #887a7c;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .table {
+        width: 100%;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+}

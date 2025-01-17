@@ -5,7 +5,7 @@ import './styles.css';
 import App from './App.jsx';
 
 // Pages
-import Inicio from './paginas/inicio.js';
+import Inicio from './pages/inicio.jsx';
 
 // Routes
 import usuarioRoutes from './routes/usuarioRoutes.jsx';

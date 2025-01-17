@@ -1,8 +1,8 @@
-import ListAlbuns from "../pages/albuns/ListAlbuns";
-import CreateAlbum from "../pages/albuns/CreateAlbum";
-import UpdateAlbum from "../pages/albuns/UpdateAlbum";
-import DeleteAlbum from "../pages/albuns/DeleteAlbum";
-import DetailAlbum from "../pages/albuns/DetailAlbum";
+import ListAlbuns from "../paginas/albuns/ListAlbuns";
+import CriarAlbum from "../paginas/albuns/CriarAlbum";
+import UpdateAlbum from "../paginas/albuns/UpdateAlbum";
+import DeleteAlbum from "../paginas/albuns/DeleteAlbum";
+import DetailAlbum from "../paginas/albuns/DetailAlbum";
 
 const albunsRoutes = [
     {
@@ -15,7 +15,7 @@ const albunsRoutes = [
     },
     {
         path: 'albuns/cadastrar/',
-        element: <CreateAlbum />
+        element: <CriarAlbum />
     },
     {
         path: 'albuns/atualizar/:id/',

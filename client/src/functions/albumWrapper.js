@@ -22,9 +22,9 @@ class AlbumWrapper {
   }
 
   // Obter detalhes de um item
-  async detailAlbumPhotos(endpoint, id) {
+  async detailAlbumFotos(endpoint, id) {
     try {
-      const response = await fetch(`${this.baseUrl}${endpoint}${id}/photos/`);
+      const response = await fetch(`${this.baseUrl}${endpoint}${id}/Fotos/`);
 
       if (!response.ok) {
         const errorResponse = await response.json();
@@ -64,7 +64,7 @@ class AlbumWrapper {
   }
 
   // Criar um novo item
-  async createAlbum(endpoint, data) {
+  async CriarAlbum(endpoint, data) {
     try {
       const response = await fetch(`${this.baseUrl}${endpoint}`, {
         method: "POST",
